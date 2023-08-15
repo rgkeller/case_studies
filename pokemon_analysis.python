@@ -52,5 +52,9 @@ df_pkm_typ_all_information["mean_stats_points"].hist()
 dataset["total_stats_points"] = dataset["HP"]+dataset["Attack"]+dataset["Defense"]+dataset["SpAtk"]+dataset["SpDef"]+dataset["Speed"]
 dataset["total_stats_points"].hist()
 
+## Checking all the combinations between Type1 and Type2 in the dataset
+len(dataset[["Type1","Type2"]].drop_duplicates())
+
+
 ## Checking the Outliers
 

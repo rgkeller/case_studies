@@ -35,7 +35,7 @@ mask = np.triu(np.ones_like(df_ht_mp.corr()))
 dataplot = sns.heatmap(df_ht_mp.corr(), cmap="YlGnBu", annot=True, mask=mask) 
 plt.show()
 
-(* ## Table to analyze the mean for each Stats grouped by Type1 and Type2 *)
+## Table to analyze the mean for each Stats grouped by Type1 and Type2
 
 pkm_types = pd.DataFrame(dataset[["Type1","Type2"]].value_counts())
 pkm_types_prop= pd.DataFrame(dataset[["Type1","Type2"]].value_counts(normalize=True)*100)

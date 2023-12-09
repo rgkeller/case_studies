@@ -1,9 +1,17 @@
+# The dataset is available on:https://www.kaggle.com/datasets/lava18/google-play-store-apps
 
+### Importing the Libraries
+import os
+import numpy as np
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
 
--- Data Catalog
-'App - '
+### Data Catalog
+'App - The App Name '
 'Category - '
-'Rating - '
+'Rating - The grade evaluated by the users. The grade contains values (float) between 1 up to 5'
 'Reviews - '
 'Size - '
 'Installs - '
